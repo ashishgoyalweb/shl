@@ -1,0 +1,33 @@
+.loginBox {
+  margin: 0 auto;
+
+  width: 40%;
+  border: 1px solid #00aeef;
+  border-radius: 10px;
+}
+
+h1 {
+  background-color: #00aeef;
+  color: #d9ffff;
+  font-size: 200%;
+  padding: 10px 0;
+  text-align: center;
+  width: auto;
+  border-radius: 10px 10px 0 0;
+}
+.loginBox .row {
+  margin: 0;
+  padding: 10px 30px;
+}
+.loginBox .row label {
+  padding: 0 15px 0 0;
+}
+.inputTextBox {
+  cursor: pointer;
+}
+.inputTextBox:disabled {
+  cursor: default;
+}
+.errorMsg {
+  color: red;
+}
